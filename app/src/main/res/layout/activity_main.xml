@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ut.webviewh5.MainActivity">
+
+    <WebView
+        android:background="#11160e"
+        android:id="@+id/webview_for_h5"
+        android:layout_width="match_parent"
+        android:layout_height="158px"></WebView>
+</RelativeLayout>
